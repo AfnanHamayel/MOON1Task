@@ -1,0 +1,79 @@
+*{
+
+margin: 0; 
+padding: 0; 
+box-sizing: border-box;
+
+} 
+
+/* with displayflex width fit contant and the hight as the perant has align items :strech */ 
+/* الابناء  بنمدووا */
+
+.header{
+  display: flex; 
+  /* gap: 232.5px;   */ 
+  justify-content:space-between;       
+  margin:21.84px 165px ; 
+    align-items:flex-end ;  
+ 
+ 
+}
+
+
+.list ul{
+
+    display: flex; 
+    gap: 60px; 
+    list-style-type: none;
+
+}
+
+.icons ul{
+
+    display: flex;  
+    gap :24px ;  
+    list-style-type: none;   
+ 
+    
+} 
+
+.Collection-Section {
+
+ display: flex;   
+ flex-wrap: wrap;  
+ gap: 30px;  
+  text-align: center;
+ 
+ margin: 80px 165px;
+
+
+
+} 
+
+.Collection{
+  width: calc((100% - 90px) / 4);  
+  
+  padding: 40px 40px ;
+}
+.Collection h2{
+
+    text-align: center;
+    margin-top: 36px;
+}
+
+
+.img {
+    width: 100%; 
+}
+
+.items{
+
+    display: flex;  
+    align-items: flex-end;
+
+}  
+
+.item{
+   width:25%; 
+
+}
